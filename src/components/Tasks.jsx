@@ -4,8 +4,8 @@ const Tasks = (props) => {
     return (
         <>
         {
-            props.tasks.map((task) => (
-                <Task key={task.id} task={task} deleteTask={props.deleteTask} toggleReminder={props.toggleReminder} />
+            props.tasks.map((task, index) => (
+                <Task key={index} task={task} deleteTask={props.deleteTask} toggleReminder={props.toggleReminder} />
             ))
         }  
         </>

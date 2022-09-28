@@ -9,7 +9,7 @@ const Button = (props) => {
 Button.propTypes = {
     color: PropTypes.string,
     text: PropTypes.string.isRequired,
-    onClick: PropTypes.func.isRequired,
+    onAdd: PropTypes.func.isRequired,
 }
 
 Button.defaultProps = {
